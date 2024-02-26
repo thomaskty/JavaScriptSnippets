@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Rock Paper Scissors Game</h1>
+
+    <div class="game-section">
+        <div class="selection-buttons">
+            <button onclick="makeSelection('Stone')">Stone</button>
+            <button onclick="makeSelection('Paper')">Paper</button>
+            <button onclick="makeSelection('Scissor')">Scissor</button>
+        </div>
+
+        <div class="scores">
+            <p>User Points: <span id="userPoint">0</span></p>
+            <p>Machine Points: <span id="machinePoint">0</span></p>
+        </div>
+
+        <button onclick="resetGame()">Reset</button>
+    </div>
+</div>
+
+<script src="stonePaper.js"></script>
+</body>
+</html>
