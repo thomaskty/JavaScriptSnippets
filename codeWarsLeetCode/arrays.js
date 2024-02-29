@@ -19,6 +19,14 @@ let spreadArray = [...originalArray];
 let arrayOf = Array.of(13, 14, 15, "Salut", false);
 
 // Displaying the arrays
-console.log("1. Array Literal:", arrayLiteral);
-console.log("2. Array Constructor:", arrayConstructor);
-console.log("3. Empty Array with push:", emptyArrayPush);
+// console.log("1. Array Literal:", arrayLiteral);
+// console.log("2. Array Constructor:", arrayConstructor);
+// console.log("3. Empty Array with push:", emptyArrayPush);
+
+function greet(name){
+    //your code here
+    let output = `Hello, ${name} how are you doing today?`
+    return output
+  }
+
+  
